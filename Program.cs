@@ -29,7 +29,8 @@ namespace Work
             //double price = double.Parse(Console.ReadLine());
             //Console.WriteLine("Do you have a membership? Press Y or N");
             //string membership = Console.ReadLine();
-            //if (membership == "Y") {
+            //if (membership == "Y")
+            //{
             //    Console.WriteLine("Your price is reduced by 20%");
             //    price = price * 0.8;
             //    price = Math.Round(price, 2);
@@ -40,7 +41,15 @@ namespace Work
             //}
             //Console.WriteLine("Your total price is " + price);
 
-            Console.WriteLine("Do you want me to calculate a "
+            Console.WriteLine("Do you want me to calculate the area of a square or a circle? Type square or circle";
+            string shape = Console.ReadLine();
+                if ( shape == "circle")
+            {
+                Console.WriteLine("What is the radius of the circle");
+                double radius = double.Parse(Console.ReadLine());
+                double c_area = radius * radius * 3.142;
+                Console.WriteLine("The radius of your circle is: " + c_area+" cm2");
+            }   else if 
 
 
 
