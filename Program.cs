@@ -48,8 +48,14 @@ namespace Work
                 Console.WriteLine("What is the radius of the circle");
                 double radius = double.Parse(Console.ReadLine());
                 double c_area = radius * radius * 3.142;
-                Console.WriteLine("The radius of your circle is: " + c_area+" cm2");
-            }   else if 
+                Console.WriteLine("The area of your circle is: " + c_area+" cm2");
+            }   else if ( shape == "square")
+            {
+                Console.WriteLine("What is the length of the square?");
+                double length = double.Parse(Console.ReadLine());
+                double s_area = length * length;
+                Console.WriteLine("The area of your circle is"
+            }
 
 
 
