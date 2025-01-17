@@ -54,7 +54,7 @@ namespace Work
                 Console.WriteLine("What is the length of the square?");
                 double length = double.Parse(Console.ReadLine());
                 double s_area = length * length;
-                Console.WriteLine("The area of your circle is"
+                Console.WriteLine("The area of your circle is " + s_area+ " cm2"
             }
 
 
